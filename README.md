@@ -122,3 +122,11 @@ grpc.port=8092
 :tada: Done! 
 
 Just running your application `mvn spring-boot:run` or build and run the jar.
+
+You should see into the logs:
+
+```
+o.l.springboot.grpc.GRpcServerRunner     : Starting gRPC Server ...
+o.l.springboot.grpc.GRpcServerRunner     : 'com.example.grpc.server.GreetingServiceImpl' service has been registered.
+o.l.springboot.grpc.GRpcServerRunner     : gRPC Server started, listening on port 8092.
+```
